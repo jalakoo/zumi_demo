@@ -1,0 +1,4 @@
+# zumi
+rpi.gpio
+Adafruit_SSD1306
+Pillow
