@@ -29,6 +29,7 @@ scripts.check_wifi()
 8. Reboot the Zumi: `sudo reboot`
 
 **From here you can either ssh to the Zumi or continue using the monitor, keyboard, mouse option. Default ssh path will be something like `ssh pi@zumi1234.local` and the default password is `pi`** 
+
 9. Install Docker: `curl -sSL https://get.docker.com | sh`
 10. Giver user Docker permissions: `sudo usermod -aG docker $USER`
 
@@ -73,4 +74,5 @@ If you want to start your alwaysAI app when the Zumi starts, do the following:
 bash /home/pi/<project_path_as_specified_in_aai_app_configure>/start_standalone.sh &
 ```
 Be sure the `exit 0` line is the last line.
+
 3. Reboot to take effect: `sudo reboot`
